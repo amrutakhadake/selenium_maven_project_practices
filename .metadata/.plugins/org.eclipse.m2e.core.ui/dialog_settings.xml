@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="wizardPage">
+		<list key="groupId">
+			<item value="SeleniumPracticesForAmruta"/>
+			<item value="SeleniumPracticesAmruta"/>
+			<item value="SeleniumTutorial"/>
+			<item value="Selenium_Tutorial"/>
+			<item value="selenium_tutorial"/>
+			<item value="Amrutakhadake"/>
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+			<item value="SeleniumPractices"/>
+			<item value="SeleniumDemo"/>
+			<item value="Selenium_practice"/>
+			<item value="selenium_practice"/>
+			<item value="SeleniumPractice"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+</section>

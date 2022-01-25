@@ -1,0 +1,25 @@
+import java.io.File;
+
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class screenshot {
+
+	public static void main(String[] args) {
+	
+		
+		System.setProperty("webdriver.chrome.driver","C:\\chromedriver\\chromedriver_win32\\chromedriver.exe");
+		WebDriver driver= new ChromeDriver();
+		  driver.get("https://rahulshettyacademy.com/locatorspractice/");
+		  this.takeSnapShot(driver, "C:\\Users\\amrut\\OneDrive\\Pictures\\Screenshots") ; 
+		  TakesScreenshot scrShot =((TakesScreenshot)driver);
+		  File SrcFile=scrShot.getScreenshotAs(OutputType.FILE);
+		  //String fileWithPath;
+		//File DestFile=new File(fileWithPath);
+		 // FileUtils.copyFile(SrcFile, DestFile);
+	}
+
+}
+
